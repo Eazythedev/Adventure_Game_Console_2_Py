@@ -63,7 +63,7 @@ print("Select by pressing either the '1' or '2' keys.")
 
 # choice1 = input()
 
-
+# Logic needs to be fixed
 while True:
     choice1 = input()
 
