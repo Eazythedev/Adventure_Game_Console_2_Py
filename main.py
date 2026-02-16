@@ -79,4 +79,4 @@ while True:
     else:
         print("Invalid input. Please choose by pressing either the '1' or '2' keys.")
 
-print("Next thing")
+print("Next thing.")
