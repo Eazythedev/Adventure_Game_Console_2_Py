@@ -58,12 +58,14 @@ print("From the field you can see a cave in the distance on the left and some ru
 print("_____________________________________________________________________________________________________")
 input("\n\n\n" + "(Press the 'Enter' key to continue)" + "\n")
 
-print("Will you 1. Go to the cave or 2. Go to the ruins?")
+print("_____________________________________________________________________________________________________")
+print("Will you:\n1. Go to the cave or \n2. Go to the ruins?")
+print("_____________________________________________________________________________________________________")
 print("Select by pressing either the '1' or '2' keys.")
 
 # choice1 = input()
 
-# Logic needs to be fixed
+# Logic still needs to be fixed
 while True:
     choice1 = input()
 
