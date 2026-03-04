@@ -76,7 +76,7 @@ while True:
         print("You get to the ruins and encounter mummies which seem to be hostile. You attack and defeat them but get a few bumps and bruises in the process.")
         break
 # This else clause runs whether the number is '1' or '2' or any other number
-    # I fixed it!!!
+    # I fixed it!
     else:
         print("Invalid input. Please choose by pressing either the '1' or '2' keys.")
 
