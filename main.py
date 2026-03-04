@@ -63,11 +63,9 @@ print("Will you:\n1. Go to the cave or \n2. Go to the ruins?")
 print("_____________________________________________________________________________________________________")
 print("Select by pressing either the '1' or '2' keys.")
 
-# choice1 = input()
-
-# Logic still needs to be fixed
+# Logic fixed!
 while True:
-    choice1 = input()
+    choice1 = int(input()) # This needs to be int(input()) not just input() b/c that's a string
 
     if choice1 == 1:
         print("You get to the entrance of the cave and find a torch, but you need a way to light it before you can enter the cave." + "\n" +
@@ -78,7 +76,12 @@ while True:
         print("You get to the ruins and encounter mummies which seem to be hostile. You attack and defeat them but get a few bumps and bruises in the process.")
         break
 # This else clause runs whether the number is '1' or '2' or any other number
+    # I fixed it!!!
     else:
         print("Invalid input. Please choose by pressing either the '1' or '2' keys.")
 
-print("Next thing.")
+if choice1 == 1:
+    print("Next thing in the cave.")
+
+elif choice1 == 2:
+    print("Next thing in the ruins.")
